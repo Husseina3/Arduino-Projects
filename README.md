@@ -2,7 +2,7 @@
 This folder consistes of different embbedded system designs and Internet of things (IOT) implementations using an arduino platform. The projects use different sensors, LED's, motors, Infrared recievers, WIFI Modules, Bluetooth low energy modules and so much more. These projects have different applications such as smart home applications and office applications. 
 Arduino has numourous built in functions that implement different functions that can be used easily. The projects listed below use arduino's built in functions for efficient implementations. 
 ## List of Projects
-1. ##LED blink using a button##: This project is implementd on the following most widely used microcontrollers made by Texas Instrunments.
+1. #LED blink using a button#: This project is implementd on the following most widely used microcontrollers made by Texas Instrunments.
     A. MSP430 F5529
     B. MSP430 G2553
 2. Multiple LED Blink: Implemented on the following Microcontrollers
