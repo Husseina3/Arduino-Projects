@@ -5,8 +5,10 @@ Arduino has numourous built in functions that implement different functions that
 ### Project Set I
 1. **LED blink using a button**: 
 This project is implementd on the following most widely used microcontrollers made by Texas Instrunments.
-    A. MSP430 F5529
-    B. MSP430 G2553
+    * MSP430 F5529
+    * MSP430 G2553
+    * Arduino Uno
+    
 2. **Multiple LED Blink**: 
 Implemented on the following Microcontrollers
     A. MSP430 F5529
