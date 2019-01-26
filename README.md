@@ -11,8 +11,8 @@ This project is implementd on the following most widely used microcontrollers ma
     
 2. **Multiple LED Blink**: 
 Implemented on the following Microcontrollers
-    A. MSP430 F5529
-    B. MSP430 G2553
+    1. MSP430 F5529
+    1. MSP430 G2553
 3. **OFF-Board Blink**: 
 This project was designed to make use of the microcontroller chip that is found on the MSP430 G2553 lunchpad by separating it and attaching it to a designated circuitry.
 4. **Simple LED Blink**:
