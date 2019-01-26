@@ -1,19 +1,21 @@
 /*
-* Arduino Wireless Communication Tutorial
-*     Example 1 - Transmitter Code
-*                
-* by Dejan Nedelkovski, www.HowToMechatronics.com
-* 
-* Library: TMRh20/RF24, https://github.com/tmrh20/RF24/
+*Author: Anwar Hussein
+*Project: Radio controlled Lights with Ultrasonic sensors
+*Created: 11/5/2018
+*last Updtaed: 1/25/2019
 */
+
+// Libraries
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
 RF24 radio(7, 8); // CE, CSN
-const byte address[6] = "00001";
 
-  int TrigPin = 5;         // Trigger of the Sonic Sensor
-  int EchoPin = 4;         // Echo of the Sonic Sensor
+const byte address[6] = "00001"; // Channel for radio communication
+
+//Ultra sonic sensor I/O
+  int TrigPin = 5;         // Trigger pin of the Ultrasonic sensor connects to pin 5 of microcontroller
+  int EchoPin = 4;         // Echo pin of the Ultrasonic sensor connects to pin 5 of microcontroller
   int Distance_Sonic = 50;          // Distance measured by Sonic Sensor 
   int echotime = 0;        // The time the reflected sound wave is recieved by the reciever end of the 
                            // sonic sensor. This value is used in the distance equation.
