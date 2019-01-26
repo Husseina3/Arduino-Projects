@@ -39,10 +39,20 @@ This project is implementd on the following most widely used microcontrollers ma
 This project is implementd on the following most widely used microcontrollers made by Texas Instrunments.
     * MSP430 F5529
     * MSP430 G2553
+    
+    
+### Project set IV
 11.**Remote Controlled Lights**:
 This Project implements a multi purpose remote controlled switch where a device that is intended to be controlled would be plugged into an outlet which in return will be powered on or off using a remote control.
  6.**Object Distance detection and Display**:
  This project uses an ultra sonic sensor to measure the relative distance of objects from the sensor and Displays it on an LCD screen.
  Remote Controlled Lights
+
+12. Object Distance detection: 
+13. People count display with Ultrasonic sensor
+14. WIFI controlled lights
+15. WIFI + Remote controlled lights
+16. Radio signal controlled lights 
+17  Distance Radio Transmitter
 
 
